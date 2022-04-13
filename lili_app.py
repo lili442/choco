@@ -14,4 +14,12 @@ confidence = st.slider("How confortable do you feel about structured products", 
 investing = st.selectbox("Do you invest or have a portfolio",
                              options=["Not at all", "I do a little", "I invest a lot"])
 colors = st.multiselect('In what type of asset do you invest in',
-                        options=['Bonds', 'Stocks', 'Commodities', 'FX'])
+                        options=['Bonds', 'Stocks', 'Commodities', 'FX', 'Crypto'])
+
+col1, col2 = st.beta_columns(2)
+with col1:
+    st.image("https://escpfinancesociety.files.wordpress.com/2020/10/financial-risk-management-improvements.jpg?w=1500", width=300)
+    st.button("Like risk")
+with col2:
+    st.image("https://thumbs.dreamstime.com/z/risk-averse-concept-umbrella-to-shield-flat-kid-business-cartoon-design-risk-averse-concept-umbrella-to-shield-flat-kid-business-169576899.jpg", width=355)
+    st.button("Hate risk")
