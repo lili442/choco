@@ -23,3 +23,7 @@ with col1:
 with col2:
     st.image("https://thumbs.dreamstime.com/z/risk-averse-concept-umbrella-to-shield-flat-kid-business-cartoon-design-risk-averse-concept-umbrella-to-shield-flat-kid-business-169576899.jpg", width=355)
     st.button("Hate risk")
+submit = st.button("Submit")
+
+if submit:
+    st.write("You submitted the form")
