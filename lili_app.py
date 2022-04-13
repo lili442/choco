@@ -10,7 +10,7 @@ age = st.number_input("Age", min_value=17, max_value=100, step=1)
 finance = st.checkbox("Do you study finance?")
 genre = st.radio("Which specialisation do you follow?",
                  options=['Investment Banking', 'Financial Markets', 'Corporate Finance'])
-confidence = st.slider("How confortable do you feel about structured products", min_value=0., max_value=100., step=1)
+confidence = st.slider("How confortable do you feel about structured products", min_value=0, max_value=100, step=1)
 investing = st.selectbox("Do you invest or have a portfolio",
                              options=["Not at all", "I do a little", "I invest a lot"])
 colors = st.multiselect('In what type of asset do you invest in',
