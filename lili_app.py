@@ -16,7 +16,7 @@ investing = st.selectbox("Do you invest or have a portfolio",
 colors = st.multiselect('In what type of asset do you invest in',
                         options=['Bonds', 'Stocks', 'Commodities', 'FX', 'Crypto'])
 
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
 with col1:
     st.image("https://escpfinancesociety.files.wordpress.com/2020/10/financial-risk-management-improvements.jpg?w=1500", width=300)
     st.button("Like risk")
